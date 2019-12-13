@@ -1,10 +1,14 @@
 // 1.) Declare a DICTIONARY
-// 2.) Declare the type of data the dictionary will contain in angle brackets
+// 2.) Declare the type of data the dictionary will contain in angle brackets. Because Dictionarys 
+//     contain key-value pairs, we declare two data types here. Example: <string, string>
 // 3.) Give it a variable name
 // 4.) Create a new Dictionary instance with its constructor: new Dictionary<string, string>()
 // 5.) Add data. The curly brackets {} at the end are required. They contain the information we'd 
 //     like to put in our Dictionary. This information is formatted in key-value pairs that are also 
 //     in curly brackets. If we're creating an empty dictionary, we leave these empty.
+
+// IMPORTANT: added the line... using System.Collections.Generic; to our standard program format. This 
+//            tells our program to load the part of the C# language that allow us to use a Dictionary object.
 
 
 
